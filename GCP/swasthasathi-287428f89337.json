@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "swasthasathi",
+  "private_key_id": "287428f893377859bd51a192155078ae85c38034",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCw5zl3cvBGmVN6\nIenCuoO+98Ky6/C7Ztw30hw11eA7kGvynnuPaEU79WarHa+FHg9Ye0rx+zuRLhuA\nWhT+yA2FbWLfAPo60JjRCKuPL2wMMHFYS1gq01/AS1hDwIzZPIgddND3ZpWB+kCY\n0+1Oe3nXAwjD3abXA4Z5A57AqHfRfidTChwnF/zN3w6HmW6wV1ZY8L+R6SvAgGny\nciamrwFxAC83D4ddKKxf2fMKv6lAWpeUjpy6ExCs4WzG+5TuYxQWFpE4NRBw2Le9\n/9V9+clLFu35rdl0CAyPbK0qOxlLeO0jVdhmqnKMDxKi6xfvSiMR2m3qB720Gjm7\n2gKGQxCjAgMBAAECggEAD0Vusw6TimyrBaSO0vYZ8G7f+mUey3a2NQVo1QbpDAtM\nHk4rGXalX2cwXT47TDELnxZJonkPK9nAmwRrwpDPhgCq49hoQZKHVqg6cypjV+wI\npNggPNYxcl6uuG6TWh99GpnefjT3XBiX4fmNh1RmcLa813e3cuFFhwXWewgwC8AE\nzVkET95frFhFddw5NsE+f4vr9lEC+osO4gYiqM6JrixqFWLz4+fswiQuSt0vMgvP\nxw4rZHUC+WCCkNADZ7r07ipHPi8tIXAAcXe+WXEWELQG/CmDs7gQEjdNd3pcAoYQ\n13EAF5Ey7kVP4GqhTcewrH3Arys+vs56dqXcc6j0FQKBgQDpBOdO01RNQtOfqja/\n5KwWt0ErYyO7gJAIJaT3TahtTlRhY1TvRt5tmczPgFY4GfYCgM+nB3hcZRIELR0g\nghJeCOOz2q+nO75ynxSP6zccVvV5drwKf8B81mdrG5oJEqxs1FHUr3LF9RQBIH36\nbnQqCIZwVMKQYKqlPGRe2uPHFwKBgQDCWYwLqe8Z0yFAkYQeczr5AZ5n/FGtLQur\nwcJ/a27ylaVvTzx4glrGyoimmrPrlcwZU0djzph3rHI4MSKRfCiuN8TphDxi6Z7E\nNLLDYbCqeXRjpb3YZp0MK1l7Zf3TY5Q3ep7yp0yOlzItAsyazbzoFQ0TjitSHI99\n0nSSSud6VQKBgQDGMVOEKh8j79kLjr0ujhMI5ylY++PikUDwjQQ5DCZbgionA1O0\niPSbCBu5yhCLexlRm7oC+UmYXKbsQmrpwXhZ3vm9eh25AgnEeCYHGysuwY/cle7u\nhyZzh/FCmqFzYhyiHBzV57yZPxCavMYqAVRwg/vFA3LRVkcOb8V3IHpoVQKBgA29\n+zMP7wIqdZ11LJxilXbp8GN16eiO2NZqOvB7jjrE7g+y0JnMzdJkm8j8A2DTFL1t\nsAyUnR9JKEJk5wbWeqHm+5tvaD2uOzWwbDt4et9y+xHYtFXK26vynL8m9Q2vatmJ\naBfMUJN8iWW5XvJLPeJDKsuJL/L8ZgEFkoyNk1SJAoGBAKYsKyWWBDljQ7OcNgxN\n/Lth6OX6fXxv0BnE/AtN6VUDonvCp2i1fPCU/LfLo4mY5p2mVp34pJf/R6MBS/6C\nKLdUUTmxJ4ccbZwVFRuxFlU3SlpYGUYSmi72CliZH5RpKpstm9sZFZT9c6Xe+MK7\na4AILxMWT3xxc6S1VDfToJep\n-----END PRIVATE KEY-----\n",
+  "client_email": "ss-service-account@swasthasathi.iam.gserviceaccount.com",
+  "client_id": "105235452715694403042",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ss-service-account%40swasthasathi.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

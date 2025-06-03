@@ -1,3 +1,4 @@
+import os
 import traceback
 
 import requests
@@ -19,22 +20,18 @@ class InHouseOCR:
     def __init__(self):
         pass
 
-    def extract_vitals_from_in_house_model(self, report: UploadFile = File(...)):
+    def extract_vitals_from_in_house_model(self, file_path: str):
         try:
-            """
-            This function simulates the extraction of vitals from a text using an in-house model.
-            For demonstration purposes, it returns a hardcoded JSON structure.
-            """
-            url = 'http://0.0.0.0:8003/upload-report'
-            # Simulated response from an in-house model
-            files = {
-                # 'report': (file.filename, file.file, file.content_type)
-            }
+            url = 'http://127.0.0.1:8003/upload-report'
 
-            response = requests.post(url, files=report)
-            return response
+            with open(file_path, 'rb') as f:
+                files = {
+                    'report': (os.path.basename(file_path), f, 'application/octet-stream')
+                }
+                print(f"Calling OCR service with file: {file_path}")
+                response = requests.post(url, files=files)
+                return response.json()
         except Exception as e:
-            traceback.print_exc()
+            print("Error in OCR call:", e)
             return {"error": str(e)}
-
 ss_ocr_new = InHouseOCR()

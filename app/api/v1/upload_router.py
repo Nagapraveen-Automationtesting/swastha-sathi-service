@@ -14,7 +14,7 @@ import uuid
 
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.abspath("./GCP/swasthasathi-287428f89337.json")
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.abspath("./GCP/swasthasathi-f67f28b55e3d.json")
 
 upload_router = APIRouter()
 
@@ -35,6 +35,17 @@ async def upload_report(file: UploadFile = File(...)):
 
         # Call MistralOCR
         result = ss_ocr_new.extract_vitals_from_in_house_model(file_path)
+        print(f"Extracted Vitals: {result}")
+        return JSONResponse(content=result)
+
+    except Exception as e:
+        # traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
+@upload_router.post("/upload-report-cloud")
+async def upload_report(signed_url:str):
+    try:
+        result = ss_ocr_new.extract_vitails_with_in_house_ocr(signed_url)
         print(f"Extracted Vitals: {result}")
         return JSONResponse(content=result)
 
@@ -71,3 +82,4 @@ def get_signed_url(request_data: SignedUrlRequest):
     except Exception as e:
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Error generating signed URL: {str(e)}")
+# ocr-poc-ss

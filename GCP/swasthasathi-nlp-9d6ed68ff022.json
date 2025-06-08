@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "swasthasathi-nlp",
+  "private_key_id": "9d6ed68ff022b2075af0f0ecf277bc8babd3f9dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMqtfLqVLZ2NFD\nWfJrzKdlKLRJNeKaVsWPKoumiT72TA2CXSbWSKA4DdLVoIs0g94eZ7/SJO8WoEwX\nsLYaWjg/gsgSThvzIKXg4gofKKe8RCI+i24eLC3wQ7Y4jP9J78hegPGfYujk0zBt\nZQuLuDyhtjwNMDeG7EIUN3Rs351zSqpgIV4pH5cpoizBf8rlqvtx2CRnSukd2rCw\nnFNLy9YexgI8wUGI+lk1Tu7fIV7uzAaL8hbjR4VNBfZhaiOCpQoC6g8l2KNxQaED\nSmV67+tSziXVzZ1rGh4g0y34adouGGKTITrXo8pEjRL3rEKlSPw+YS+xEoq8LqJT\naAf7yJBdAgMBAAECggEABUo2eBj/Rm3xMrM6H5dhjZCRp3M0wvJ2Fr1RVEVghKwO\nxcYleg0NYqH0Y9zn3C4szMCbSWcTM82CZmuvnMzBRd6Es7/5TS9NZPDvJrSTE/S+\nbIJOu4mUHtRtpZ2ljN6rmh97u7fjE48AfqbmDLgbjYWQ1cfDJd5hnYN8hzROLdaF\nFrX4VfSkUySOSnpB/Li6oqP3O3YoM+OSf7FaW+NuZGID1SqSWzNGEMhOyLadrlbF\nGcKfjjn1MgeETtkKhrYl9sO/jMnqgMEEGUF2FjPo8sSiZkocCgp3wVUloxh1LtLk\njKvEvlCwuuIVDipNGme3n/T3/G9Up5yOuLR9sm22YQKBgQD9i4q1RHyUd+tyZEAf\n2IT1zZTdyVKNvTv/eHI3TS8UWvC0+PunOeGTJohMPuCmnbBLXcTAJDS81vJ6S6bM\niMzFbntCdk+l1eO7ISclErbf+HBAqr9pfmRqQxXzb/Z9qgDC4Wb8MqdgOAZ04Xjm\nkT+ERnjhoRW9PiV7qWhMCwrAOQKBgQDOpiYPSZzfXKlc5IvI9jPfSEizxSwCvX/A\noNqW7cSHfWlcgGpOui/5YjHJLZng3Ehdt7+euXiZRsxzyOsuk8eKlWqr5JiHqBnY\nCff1nTymD0AUhHcWu8i5wcLTOSA2uWFAnU9uzyc+q+WwROFFgNhhQ5F2mv9Xc1cr\nJDt0TKbJRQKBgQD8VI7EHhe6DqrE2p6y0uJoWqQoIf9FzqnSc0WAYhFTubnK8exJ\nniIwN234K6+aQl88cmKoMqBFu8nwCjBDaHYamvySxXo4+eg9yR3TGI/l0LOut//t\ndntrAb7r2ma+450EVh0PKz5GVRuf4PFYzf8fnp8ZNh6TizD0pEGHRIn7iQKBgBei\n2WeWO+Mwbg659WMfBf/b/LTTMJ1/n0UhIN9ygrAcoBh8d6xZj3Mu0BL6rEcT6xMN\nGVXGUQz3FBuKN5w0OvaW8ISIuQmLKKmVOk9VlMJJrEKshBKNl//nMamHNzALNBx3\n4cYC27JHZxYqSrnwas91MwYl5F7USnwcwNAklE8hAoGBAKnSlDHsu3q2jMVi2BOv\n29TS976KUrsqxmrY2UYbRDd4vdxmsGT1vsZiB3Xj+0hVygTxEiH3FRvJnwa/1eIi\nyTc7GeOk0PohrUBdHenGrgvay3q+esHDsizb4llSRSHLevx+iaunGX3nO+K0M6p0\np9E0mV6uh6OFj+r+SWfMLkbE\n-----END PRIVATE KEY-----\n",
+  "client_email": "ss-nlp-sa@swasthasathi-nlp.iam.gserviceaccount.com",
+  "client_id": "100368362655837368673",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ss-nlp-sa%40swasthasathi-nlp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
